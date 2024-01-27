@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Style for the container */
+        .message-container {
+            width: 300px;
+            height: 150px;
+            /* Set the desired height */
+            margin: 20px;
+        }
+
+        /* Style for the textarea */
+        .message-input {
+            width: 100%;
+            height: 100%;
+            /* Make the textarea fill the container height */
+            padding: 10px;
+            box-sizing: border-box;
+            word-wrap: break-word;
+            /* Wrap long words */
+            overflow: auto;
+            /* Add a scrollbar when needed */
+        }
+    </style>
+    <title>Message Input</title>
+</head>
+
+<body>
+    <div class="message-container">
+        <label for="userMessage">Your Message:</label>
+        <textarea id="userMessage" class="message-input" placeholder="Type your message..."></textarea>
+    </div>
+</body>
+
+</html>
