@@ -33,6 +33,7 @@ html {
 body {
     font-family: 'Catamaran', sans-serif;
     line-height: 1.5;
+    overflow-x: hidden;
 }
 
 .main-page {
