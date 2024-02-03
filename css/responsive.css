@@ -1,23 +1,6 @@
 
 /* 1632px */
 @media (max-width: 102em) {
-    div.top:before {
-        left: 25%;
-       
-    }
-
-    div.bottom:before {
-        left: 25%;
-    }
-
-    div.left:before {
-        display: none;
-    }
-
-    div.right:before {
-        display: none;
-    }
-    
     .section-bio {
         padding-top: 3.2rem;
     }
@@ -31,6 +14,23 @@
 @media (max-width: 87em) {
     .section-portfolio {
         padding: 3.2rem 0;
+    }
+
+    div.top:before {
+        left: 25%;
+        
+    }
+        
+    div.bottom:before {
+        left: 25%;
+    }
+        
+    div.left:before {
+        display: none;
+    }
+        
+    div.right:before {
+        display: none;
     }
 }
 
