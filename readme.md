@@ -1,1 +1,1 @@
-Simple website portfolio using HTML and CSS
+Simple Website portfolio using HTML and CSS
