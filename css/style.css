@@ -304,12 +304,18 @@ SECTION PORTFOLIO
 .portfolio-container {
     border: 2px solid var(--light);
     border-radius: 6px;
+    overflow: hidden;
 }
 
 .portfolio-img {
     width: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    transition: transform 3s;
+}
+
+.portfolio-img:hover {
+    transform: scale(1.1);
 }
 
 .portfolio-icon {
@@ -502,12 +508,15 @@ SECTION FOOTER
 .footer {
     background-image: linear-gradient(to right, #202020, #404040);
     border-top: 1px solid var(--secondaryColor);
+    display: flex;
 }
 
 .col-3-grid {
     display: flex;
     width: 100rem;
     margin: auto;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .footer-nav-one {
